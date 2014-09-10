@@ -37,5 +37,14 @@
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web"
+		"heroku": {
+            "document-root": "web",
+            "php-config": [
+                "date.timezone=Europe/Amsterdam",
+                "display_errors=off",
+                "short_open_tag=off"
+            ]
+        }
     }
+	
 }
