@@ -1,0 +1,3 @@
+test_page:
+    pattern:  /index/
+    defaults: { _controller: teamACrudBundle:Default:index }
